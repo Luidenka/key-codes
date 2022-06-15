@@ -1,4 +1,5 @@
 document.body.addEventListener('keydown', (e) => {
+    e.preventDefault();
     if (e.key == "") {
         document.getElementById('key').innerHTML = "<span style='color: white'>space</span>";
         document.getElementById('key-table').innerHTML = "<span style='color: white'>space</span>";
