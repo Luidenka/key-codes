@@ -1,7 +1,7 @@
 document.body.addEventListener('keydown', (e) => {
     if (e.key = "") {
-        document.getElementById('key').innerText = " ";
-        document.getElementById('key-table').innerText = " ";
+        document.getElementById('key').innerHTML = "&nbsp;";
+        document.getElementById('key-table').innerHTML = "&nbsp;";
     } else {
         document.getElementById('key').innerText = e.key;
         document.getElementById('key-table').innerText = e.key;
