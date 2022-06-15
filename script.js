@@ -1,7 +1,7 @@
 document.body.addEventListener('keydown', (e) => {
-    if (e.key = "") {
-        document.getElementById('key').innerHTML = "&nbsp;";
-        document.getElementById('key-table').innerHTML = "&nbsp;";
+    if (e.key == "") {
+        document.getElementById('key').innerHTML = "<span style='color: white'>space</span>";
+        document.getElementById('key-table').innerHTML = "<span style='color: white'>space</span>";
     } else {
         document.getElementById('key').innerText = e.key;
         document.getElementById('key-table').innerText = e.key;
