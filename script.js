@@ -1,4 +1,4 @@
-document.body.addEventListener('keypress', (e) => {
+document.body.addEventListener('keydown', (e) => {
     document.getElementById('key').innerText = e.key;
     document.getElementById('key-table').innerText = e.key;
     document.getElementById('keyCode').innerText = e.keyCode;
